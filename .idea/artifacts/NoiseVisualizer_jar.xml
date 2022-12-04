@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NoiseVisualizer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NoiseVisualizer_jar</output-path>
+    <root id="archive" name="NoiseVisualizer.jar">
+      <element id="module-output" name="NoiseVisualizer" />
+    </root>
+  </artifact>
+</component>
