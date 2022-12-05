@@ -10,7 +10,7 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
 
-        frame.setContentPane(new MainPanel());
+        frame.setContentPane(new MainPanel2D());
 
         frame.pack();
         frame.setLocationRelativeTo(null);

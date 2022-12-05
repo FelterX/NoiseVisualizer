@@ -10,7 +10,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MainPanel extends JPanel {
+public class MainPanel2D extends JPanel {
     private static BufferedImage resultImage;
 
     private static float noiseScale = 64.0f;// 64
@@ -23,7 +23,7 @@ public class MainPanel extends JPanel {
     private JPanel varsPanel;
 
 
-    public MainPanel() {
+    public MainPanel2D() {
         seed = (new Random()).nextLong();
         Timer t = new Timer();
         t.scheduleAtFixedRate(new TimerTask() {
@@ -149,6 +149,8 @@ public class MainPanel extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.drawImage(resultImage, 1280 / 2, 0, 1280 / 2, 720, null);
+
+
     }
 
     public static void generateImage() {
